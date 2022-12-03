@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 
 // import ApolloProvider
 import { ApolloProvider, ApolloClient, InMemoryCache, createHttpLink } from '@apollo/client';
-import { setContext } from 'apollo/client/link/context';
+import { setContext } from '@apollo/client/link/context';
 
 // GraphQL API endpoint
 const HttpLink = createHttpLink({
