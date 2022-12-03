@@ -9,12 +9,12 @@ import { ApolloProvider, ApolloClient, InMemoryCache, createHttpLink } from '@ap
 import { setContext } from '@apollo/client/link/context';
 
 // GraphQL API endpoint
-const HttpLink = createHttpLink({
+const httpLink = createHttpLink({
   uri: '/graphql',
 });
 
 // request middleware for JWT token authorization header for every request.
-const AuthLink = setContext((_, { headers }) => {
+const authLink = setContext((_, { headers }) => {
   const token = localStorage.getItem('id_token');
   return {
     headers: {
@@ -26,7 +26,7 @@ const AuthLink = setContext((_, { headers }) => {
 
 // execute authLink middleware prior to graphQL request.
 const client = new ApolloClient({
-  link: AuthLink.concat(HttpLink),
+  link: authLink.concat(httpLink),
   cache: new InMemoryCache(),
 });
 
