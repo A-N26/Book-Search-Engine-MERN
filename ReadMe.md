@@ -17,7 +17,7 @@ Refactored using `GraphQL API built with Apollo Server`. App previously built wi
 ## _Table of Contents📖_
 
 - [Installation](#Installation)💾
-- [Usage](#Usage)🖥️
+- [Usage](#Usage)🖥
 - [Links](#Links)📎
 - [Credits](#Credits)💳
 - [Licence](#License)🪪
@@ -33,7 +33,7 @@ Refactored using `GraphQL API built with Apollo Server`. App previously built wi
 - Clone repo.
 - `npm i` for dependencies. \* In vscode with npm scripts tab, run the app.
 
-## _Usage🖥️_
+## _Usage🖥_
 
 Simply visit the deployed link mentioned below **(no Heroku link available as it's is paid, as such, instead `Netlify` was used for deployment.)**
 
