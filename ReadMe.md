@@ -35,7 +35,7 @@ Refactored using `GraphQL API built with Apollo Server`. App previously built wi
 
 ## _Usage🖥_
 
-- `npm run develop` to launch the app.
+- `npm run develop` to launch the app locally.
 
 **No Heroku link available as it's is paid.** Instead Netlify was used to deploy the app successfully...
 ![GBS_login](./images/GBS_login.jpg)
