@@ -35,7 +35,7 @@ Refactored using `GraphQL API built with Apollo Server`. App previously built wi
 
 ## _Usage🖥_
 
-**No Heroku link available as it's is paid.**
+**No Heroku link available as it's is paid.** Instead Netlify was used to deploy the app successfully...
 
 ## _Links📎_
 
@@ -45,7 +45,7 @@ Refactored using `GraphQL API built with Apollo Server`. App previously built wi
 
 - <[B.S.E_MERN](https://github.com/A-N26/Book-Search-Engine-MERN)>
 
-- N/A
+- <[netlify deployed link](https://bse-mern-an.netlify.app/)>
 
 </details>
 
